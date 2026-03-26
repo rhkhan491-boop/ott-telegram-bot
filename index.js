@@ -11,7 +11,7 @@ process.on("uncaughtException", (err) => console.log("ERROR:", err));
 process.on("unhandledRejection", (err) => console.log("PROMISE ERROR:", err));
 
 // 🤖 BOT
-const bot = new TelegramBot(process.env.8623753685:AAFkfHmOWSOJZX8Ng1J93sIWSqcDNNMcxx4, {
+const bot = new TelegramBot(process.env.BOT_TOKEN, {
   polling: true,
 });
 
