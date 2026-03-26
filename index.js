@@ -9,6 +9,7 @@ process.on("uncaughtException", (err) => console.log("ERROR:", err));
 process.on("unhandledRejection", (err) => console.log("PROMISE ERROR:", err));
 
 require("dotenv").config();
+require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, {
